@@ -8,12 +8,12 @@ public class DemoController {
 
     @GetMapping(path = "/ping")
     public String ping() {
-        return "pong";
+        return "ping pong";
     }
 
     @GetMapping(path = "/pong")
     public String pong() {
-        return "ping";
+        return "ping ping";
     }
 
 }
